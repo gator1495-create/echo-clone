@@ -1,4 +1,6 @@
-coqui-tts
 fastapi
 uvicorn[standard]
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu  # CPU-only for easy deploy
+TTS==0.22.0  # Coqui XTTS-v2 — best open-source cloner, multilingual fire
+pydantic
 python-multipart
